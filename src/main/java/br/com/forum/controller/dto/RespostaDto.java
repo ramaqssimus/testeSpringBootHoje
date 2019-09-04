@@ -11,7 +11,6 @@ public class RespostaDto {
 	private LocalDateTime dataCriacao;
 	private String nomeAutor;
 	
-	
 	public RespostaDto(Resposta resposta) {
 		this.id = resposta.getId();
 		

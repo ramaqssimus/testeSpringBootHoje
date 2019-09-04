@@ -12,7 +12,6 @@ public class AutorDto {
 	
 	public AutorDto(Autor autor) {
 		
-		
 		this.id = autor.getId();
 		this.nome = autor.getNome();
 	}

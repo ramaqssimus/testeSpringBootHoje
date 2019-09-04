@@ -10,7 +10,6 @@ public class DetalharAutorId {
 	
 	public DetalharAutorId(Autor autor) {
 		
-		
 		this.id = autor.getId();
 		this.nome = autor.getNome();
 	}

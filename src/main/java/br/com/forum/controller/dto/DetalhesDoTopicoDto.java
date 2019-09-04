@@ -16,7 +16,6 @@ public class DetalhesDoTopicoDto {
 	private LocalDateTime dataCriacao;
 	private String nomeAutor;
 	private StatusTopico status;
-	
 	private List<RespostaDto> respostas;
 	
 	public DetalhesDoTopicoDto(Topico topico) {

@@ -13,7 +13,6 @@ public class AtualizacaoAutor {
 	@NotNull @NotEmpty @Length(min = 5)
 	private String nome;
 	
-	
 	public Autor atualizar(Long id, AutorRepository autorRepository) {
 		Autor autor = autorRepository.getOne(id);
 		

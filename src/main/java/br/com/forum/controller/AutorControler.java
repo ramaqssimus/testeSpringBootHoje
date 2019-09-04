@@ -33,7 +33,6 @@ public class AutorControler {
 	@Autowired
 	private AutorRepository autorRepository;
 	
-	
 	@GetMapping
 	public List<AutorDto> lista(String nome) {
 		if (nome == null) {

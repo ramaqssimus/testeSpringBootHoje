@@ -37,8 +37,6 @@ public class TopicosController {
 	@Autowired
 	private CursoRepository cursoRepository;
 	
-	
-	
 	@GetMapping
 	public List<TopicoDto> lista(String nomeCurso) {
 		if (nomeCurso == null) {

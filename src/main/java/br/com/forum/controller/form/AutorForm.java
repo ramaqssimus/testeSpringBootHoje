@@ -6,7 +6,6 @@ import javax.validation.constraints.NotNull;
 import org.hibernate.validator.constraints.Length;
 
 import br.com.forum.modelo.Autor;
-import br.com.forum.repository.AutorRepository;
 
 public class AutorForm {
 	
@@ -14,7 +13,6 @@ public class AutorForm {
 	private Long id;
 	@NotNull @NotEmpty @Length(min = 5)
 	private String nome;
-	
 	
 	
 	
